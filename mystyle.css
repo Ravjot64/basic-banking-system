@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-image: url("./bank5.jpg"); 
+  background-position: center; 
+  background-repeat: no-repeat;  
+  background-size: cover;
+font-family:verdana;
+  
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #282A35;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topnav a 
+{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+ transition-duration:0.2s;
+}
+
+.topnav a.active 
+{
+  background-color:blue;
+  color: white;
+}
+
+.bank
+{
+float:left;
+top-margin:50px;
+}
+
+h1
+{
+margin-top:50px;
+text=align:left;
+font-face:comic sans ms;
+
+}
+
+span
+{
+color:#f5b120;
+font-face:verdana;
+}
+
+.para
+{
+font-size:25px;
+text-align:center;
+font-family:Lucida;
+}
+
+.column
+ {
+  float: left;
+  width: 30%;
+  background-color:"blue";
+  font-size:25px;
+  font-family:verdana;
+ }
+
+.footer {
+  //position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+opacity:0.5;
+}
+table
+{ background-color:#ccffff;
+text-align:center;
+font-family="comic sans ms";
+width: 80%;
+height:200px;
+//border-collapse:collapse;
+border-radius:20px;
+overflow-y:auto;
+ 
+}
+th
+{
+background-color:green;
+color:white;
+border-radius:20px;
+
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;border-radius:20px;}
+
+input[type=submit],input[type=reset] {
+  background-color: green ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+ display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius: 12px;
+transition-duration: 0.2s;
+opacity:0.6;
+}
+input[type=submit]:hover,input[type=reset]:hover {
+opacity:1;
+}
+
+label
+{
+font-size:20px;
+font-family:century gothic;
+}
+fieldset
+{
+width:50%;
+//height:60%;
+background-color:white;
+border-radius:30px;
+}
+body.customer
+{
+ margin: 0;
+  background-image: url("./bank6.jpg"); 
+  background-position: center; 
+  background-repeat: no-repeat;  
+  background-size: cover;
+font-family:verdana;
+  }
+option
+{ 
+ Font-family:verdana;
+ background-color:lime green;
+}
+option:hover
+{
+background-color:green;
+}
